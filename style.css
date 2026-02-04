@@ -1,0 +1,258 @@
+
+@font-face{
+    font-family: Borensa;
+    src:url(borensa.ttf) ;
+}
+.container-fluid{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+body::selection {
+    background-color: rgb(177, 227, 229);
+}
+h5{
+    padding: 15px;
+    font-family: Borensa;
+}
+.trends{
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    width: 1700px;
+}
+.card{
+    width: 100px;
+    scroll-snap-align: start;
+}
+.add{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    height: 200px;
+    background-image: url(https://img.alicdn.com/imgextra/i2/6000000005231/O1CN011SjGkm1oVqQ8qn0Df_!!6000000005231-0-tbvideo.jpg);
+}
+h1{
+    font-family: Borensa;
+}
+
+.btn:hover{
+    box-shadow: 1px 1px 7px black;
+}
+.card{
+    min-width: 300px;
+}
+.trends{
+    position: relative;
+    max-width: 1700px;
+    margin: 50px 15px;
+    width: 1400px;
+    overflow-x: hidden;
+}
+.poppy{
+    display: flex;
+    gap: 20px;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 15px;
+
+}
+.btn{
+    border-radius: 10px;
+    height: 40px;
+}
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: 50px 15px;
+    width: 1700px;
+  }
+  
+  .container {
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .second {
+    display: flex;
+    gap: 15px;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 15px;
+  }
+  
+  .second > div {
+    flex: 0 0 calc(33.333% - 10px);
+    scroll-snap-align: start;
+    margin: 0;
+    min-width: 300px;
+  }
+.phantom{
+    background-image: url(https://i.pinimg.com/736x/17/d4/e3/17d4e3c7bf3105d7b00a479b4f4abc0d.jpg);
+    color: white;
+    height: 450px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    justify-content: flex-end; /* Контент прижимается к низу */
+    align-items: flex-start; /* Контент прижимается к левому краю */
+}
+.mad{
+    background-image: url(rare.PNG);
+    color: white;
+    height: 450px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    justify-content: flex-end; /* Контент прижимается к низу */
+    align-items: flex-start; /* Контент прижимается к левому краю */
+}
+.justin{
+    background-image: url(https://i.pinimg.com/550x/f8/43/74/f8437417cee255acb17aab8d1b0bc93f.jpg);
+    color: white;
+    height: 450px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    justify-content: flex-end; /* Контент прижимается к низу */
+    align-items: flex-start; /* Контент прижимается к левому краю */
+}
+.race{
+    background-image: url(check.jpg);
+    color: white;
+    height: 450px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    justify-content: flex-end; /* Контент прижимается к низу */
+    align-items: flex-start; /* Контент прижимается к левому краю */
+}
+.fest{
+    background-image: url(https://i.pinimg.com/736x/22/80/46/2280465b13e55abe57ca28ad79fa7fde.jpg);
+    color: white;
+    height: 450px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    justify-content: flex-end; /* Контент прижимается к низу */
+    align-items: flex-start; /* Контент прижимается к левому краю */
+}
+.winter{
+    background-image: url(photo_2025-02-13_18-16-52.jpg);
+    color: white;
+    height: 450px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    justify-content: flex-end; /* Контент прижимается к низу */
+    align-items: flex-start; /* Контент прижимается к левому краю */
+}
+h4{
+    padding: 0px 0px 0px 15px;
+}
+a{
+    transition: transform 0.5s ease;
+}
+li{
+    transition: transform 0.5s ease;
+}
+a:hover{
+    transform: scale(1.1);
+}
+li:hover{
+    transform: scale(1.1);
+}
+.banner{
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_65d3ad8444e19f05a3e75e11_65d3ad9b5235e6704d710743/scale_1200);
+    height: 450px;
+    max-width: 100%;
+    width: 1200px;
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    justify-content: flex-end; /* Контент прижимается к низу */
+    align-items: center; /* Контент прижимается к левому краю */
+    margin: 0px 0px 0px 100px;
+    border-radius: 20px;
+}
+.rad{
+    background-color: rgb(117, 2, 2);
+    border-radius: 15px;
+    height: 50px;
+    margin: 30px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Borensa;
+    width: 550px;
+    box-shadow: 0px 0px 20px rgb(245, 121, 121);
+}
+.truet{
+    padding: 0px 0px 30px 0px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Borensa;
+}
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+  }
+
+  .recipe-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+  }
+
+  .recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+.name{
+    padding: 0px 0px 0px 15px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(150, 146, 146);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.icon{
+    width: 50px;
+    height: 60px;
+}
